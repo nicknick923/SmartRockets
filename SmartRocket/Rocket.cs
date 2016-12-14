@@ -21,9 +21,7 @@ namespace SmartRocket
         private DNA dna;
         public static double maxMag = 10;
         public double fitness;
-        //no2
         private static Vector UP_VECTOR = new Vector(0, 1);
-        //no
         private static Vector rocketSize = new Vector(10, 50);
         public static int count;
         private double largestDistance;
@@ -42,6 +40,7 @@ namespace SmartRocket
             largestDistance = Math.Sqrt(Math.Pow(inPanel.Width, 2) + Math.Pow(inPanel.Height, 2));
             dna = new DNA();
             vel = new Vector(0, 0);
+            //lol
             acc = new Vector(0, 0);
             pos = new Vector(p.Width / 2, p.Height);
             count = 0;
