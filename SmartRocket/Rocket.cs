@@ -15,6 +15,9 @@ namespace SmartRocket
         private Vector vel;
         private Vector acc;
         private Graphics g;
+
+        //lol
+
         private Bitmap p;
         private DNA dna;
         public static double maxMag = 10;
