@@ -16,7 +16,6 @@ namespace SmartRocket
         private Vector acc;
         private Graphics g;
 
-        //lol
 
         private Bitmap p;
         private DNA dna;
