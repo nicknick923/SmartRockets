@@ -21,6 +21,7 @@ namespace SmartRocket
         private DNA dna;
         public static double maxMag = 10;
         public double fitness;
+        //no2
         private static Vector UP_VECTOR = new Vector(0, 1);
         //no
         private static Vector rocketSize = new Vector(10, 50);
