@@ -22,6 +22,7 @@ namespace SmartRocket
         public static double maxMag = 10;
         public double fitness;
         private static Vector UP_VECTOR = new Vector(0, 1);
+        //no
         private static Vector rocketSize = new Vector(10, 50);
         public static int count;
         private double largestDistance;
